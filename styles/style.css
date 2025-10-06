@@ -1,20 +1,56 @@
 .header {
+  display: grid;
+  width: 1100px;
+  height: 293px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  align-content: center;
+  
 
 }
 .nav-header {
+  display: flex;
 
 }
 .menu {
-
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+  
+}
+.menu1 {
+  text-decoration: none;
+}
+.menu2 {
+  list-style-type: circle;
+}
+.menu3 {
+  list-style-type: circle;
 }
 .images {
+  width: 148px;
+  height: 105px;
 
 }
 .address-header {
-
+  width: 200px;
+  height: 98px;
+  align-items: space-between;
+}
+.address1 {
+  gap: 100px;
+}
+.address2 {
+  gap: 100px;
+}
+.address3 {
+  gap: 100px;
 }
 .cover {
-
+  width: 1100px;
+  height: 757px;
+  background-image: url(/images/cover.jpg);
 }
 .cover-logo {
 
